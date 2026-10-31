@@ -47,9 +47,10 @@ a, .btn { transition: color 140ms ease, background-color 140ms ease; }
 // Uses the existing Search Banner component, preserving its Spanish copy/settings.
 .search-banner .custom-search-banner-wrap {
   position: relative;
+  z-index: 2;
   isolation: isolate;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
   margin: 24px 0 32px;
   padding: 48px 40px;
   border-radius: 12px;
@@ -130,6 +131,7 @@ a, .btn { transition: color 140ms ease, background-color 140ms ease; }
     li { padding: 7px 0; line-height: 1.5; }
     a { color: var(--primary); font-size: .95rem; }
     a:hover { color: var(--tertiary); text-decoration: underline; }
+    .emoji { display: none; }
   }
 }
 
