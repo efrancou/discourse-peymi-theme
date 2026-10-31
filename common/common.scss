@@ -45,7 +45,7 @@ a, .btn { transition: color 140ms ease, background-color 140ms ease; }
 :focus-visible { outline: 3px solid var(--tertiary); outline-offset: 3px; }
 
 // Uses the existing Search Banner component, preserving its Spanish copy/settings.
-.custom-search-banner-wrap {
+.search-banner .custom-search-banner-wrap {
   position: relative;
   isolation: isolate;
   box-sizing: border-box;
@@ -83,8 +83,7 @@ a, .btn { transition: color 140ms ease, background-color 140ms ease; }
     line-height: 1.65;
   }
   .search-input {
-    max-width: 620px;
-    width: 68%;
+    width: 100%;
     margin: 0;
     padding: 8px 12px;
     background: #fff;
@@ -95,7 +94,7 @@ a, .btn { transition: color 140ms ease, background-color 140ms ease; }
     input::placeholder { color: #526b7a; opacity: 1; }
     .d-icon { color: #187b98; }
   }
-  .search-menu { text-align: left; }
+  .search-menu { width: 68%; max-width: 620px; margin: 0; text-align: left; }
 }
 .search-banner { height: auto; padding: 0; margin: 0; }
 

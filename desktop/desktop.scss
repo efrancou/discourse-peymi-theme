@@ -3,10 +3,10 @@
 }
 
 @media (max-width: 900px) {
-  .custom-search-banner-wrap {
+  .search-banner .custom-search-banner-wrap {
     padding: 36px 28px;
     &::after { width: 25%; opacity: .55; }
     p { max-width: 65%; }
-    .search-input { width: 74%; }
+    .search-menu { width: 74%; }
   }
 }
