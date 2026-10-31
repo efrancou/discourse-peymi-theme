@@ -1,0 +1,26 @@
+{
+  "name": "Peymi",
+  "component": false,
+  "authors": "Peymi",
+  "about_url": "https://github.com/efrancou/discourse-peymi-theme",
+  "license_url": "https://github.com/efrancou/discourse-peymi-theme/blob/main/LICENSE",
+  "assets": {
+    "raleway-latin": "assets/raleway-latin.woff2",
+    "raleway-latin-ext": "assets/raleway-latin-ext.woff2",
+    "peymi-cloud": "assets/peymi-cloud.svg"
+  },
+  "color_schemes": {
+    "Peymi": {
+      "primary": "193347",
+      "secondary": "FFFFFF",
+      "tertiary": "187B98",
+      "quaternary": "217F9C",
+      "header_background": "FFFFFF",
+      "header_primary": "082135",
+      "highlight": "D9F3FA",
+      "danger": "B83C43",
+      "success": "237B5A",
+      "love": "B44469"
+    }
+  }
+}

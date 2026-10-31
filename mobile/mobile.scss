@@ -1,0 +1,16 @@
+.custom-search-banner-wrap {
+  margin: 16px 0 24px;
+  padding: 30px 22px;
+  border-radius: 8px;
+  &::after { display: none; }
+  h1 { font-size: 1.85rem; max-width: 19ch; }
+  p { max-width: none; font-size: .95rem; }
+  .search-input { width: 100%; box-sizing: border-box; }
+}
+.category-boxes-with-topics {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  .category-box-inner { padding: 20px; }
+}
+.navigation-container { margin-bottom: 18px; }
+.custom-footer { margin-top: 36px; }
