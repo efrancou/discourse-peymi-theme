@@ -2,7 +2,7 @@
   .category-boxes-with-topics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 651px) and (max-width: 900px) {
   .search-banner .custom-search-banner-wrap {
     padding: 36px 28px;
     &::after { width: 25%; opacity: .55; }
